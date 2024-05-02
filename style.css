@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
+
+nav{
+    height:5rem;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:10rem;
+}
+
+.links a{
+    text-decoration:none;
+    color:black;
+}
+
+#cursor{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: transparent;
+    position: fixed;
+    z-index: 99;
+}
+
+h1::selection{
+    background-color: orange;
+}
+.sec1{
+    height:51vw;
+    width:85%;
+    top:5rem;
+    position: absolute;
+    left:8rem;
+    scroll-behavior: smooth;
+}
+
+img{
+    height:20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    position: absolute;
+    top:30%;
+    left:30%;
+    z-index:10;
+    object-fit: cover;
+}
+marquee{
+    position: relative;
+    left:-105%;
+    bottom:0;
+    font-size:5rem;
+    font-weight: 600;
+    height:20rem
+}
+
+.p1{
+    position: absolute;
+    top:22rem;
+    left:45rem;
+    font-size:1.3rem
+}
+
+.p2{
+    position: absolute;
+    top:42rem;
+    left:45rem;
+    font-size:1.3rem
+}
+
+.p3{
+    position: absolute;
+    top:62rem;
+    left:45rem;
+    font-size:1.3rem
+}
+.p4{
+    position: absolute;
+    top:82rem;
+    left:45rem;
+    font-size:1.3rem
+}
+
+.sec2{
+    position: absolute;
+    height:51vw;
+    width:100%;
+    top:200%;
+    left:8rem
+}
