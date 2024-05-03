@@ -61,6 +61,8 @@ h1::selection{
 img{
     height:20rem;
     width: 20rem;
+    max-width: 100%;
+    height:auto;
     border-radius: 1rem;
     position: absolute;
     top:30%;
@@ -110,4 +112,137 @@ marquee{
     width:100%;
     top:200%;
     left:8rem
+}
+
+.sec2{
+    display: flex;
+    height:20rem;
+    width:75rem;
+    background-color: #CDE8E5;
+    border-radius: 3rem;
+    margin-left:3rem
+}
+
+.sec2 h2{
+    position:relative;
+    top:5rem;
+    left:37%;
+    font-size:2rem;
+}
+
+.sec2 .con_links{
+    display: flex;
+    height:3rem;
+    width:25rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size:1.3rem;
+    position: relative;
+    top:12rem;
+    left:10rem;
+}
+.sec2 .con_links a{
+    text-decoration:none;
+    color:black;
+}
+
+.sec2 i{
+    color:black;
+}
+
+.end{
+    position: relative;
+    top:128rem;
+    left:38%;
+    font-weight: 400;
+    color:gray;
+}
+
+.end h4::selection{
+    background-color: gold;
+}
+
+
+@media (max-width:425px){
+    marquee{
+        left:-43rem;
+        scale: 0.5;
+        bottom:0;
+        z-index: 100;
+    }
+    body{
+        overflow-x:hidden;
+        height:100rem;
+    }
+    .main{
+        height:auto;
+    }
+    nav{
+        left:0rem;
+        scale:0.75;
+        display: flex;
+        justify-content: space-between;
+        width: 30rem;
+        align-items: center;
+    }
+    nav .links{
+        margin-right:5rem;
+    }
+    #cursor{
+        display: none;
+    }
+    .sec1 img{
+        height:10rem;
+        width:10rem;
+        left:-4rem;
+    }
+    .p1{
+        font-size:0.8rem;
+        display: flex;
+        width:10rem;
+        left:8rem;
+        margin-top:-10rem;
+        top:19rem;
+    }
+    .p2{
+        font-size:0.8rem;
+        display: flex;
+        width:10rem;
+        left:8rem;
+        margin-top:-10rem;
+        top:30rem;
+    }
+    .p3{
+        font-size:0.8rem;
+        display: flex;
+        width:10rem;
+        left:8rem;
+        margin-top:-10rem;
+        top:36rem;
+    }
+    .p4{
+        font-size:0.8rem;
+        display: flex;
+        width:10rem;
+        left:8rem;
+        margin-top:-10rem;
+        top:44rem;
+    }
+    .sec2{
+        display: flex;
+        position: absolute;
+        scale:0.5;
+        width:40rem;
+        justify-content: center;
+        left:-10rem;
+        top:67rem;
+    } 
+    .sec2 a{
+        margin-left:-30rem;
+    }
+    .end{
+        font-size:0.75rem;
+        left:7rem;
+        top:90rem;
+    }
 }
