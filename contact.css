@@ -1,0 +1,12 @@
+h2{
+    font-weight:600;
+    top:7rem;
+    left:40%;
+    font-size:2rem;
+    position: absolute;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}

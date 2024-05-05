@@ -19,3 +19,62 @@ h2{
     align-items: center;
     text-align: center;
 }
+
+.card{
+    height:29rem;
+    width:22rem;
+    position: absolute;
+    top:28%;
+    left:20%;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 5px 5px 5px 5px rgba(25, 25, 25, 0.659);
+}
+.card h3{
+    top:20%;
+    position: relative;
+    left:5rem;
+}
+.img1{
+    height:10rem;
+    width:20rem;
+    top:3rem;
+    left:1rem;
+}
+.img2{
+    height:10rem;
+    width:20rem;
+    top:15rem;
+    left:1rem;
+}
+.strip1{
+    height:12rem;
+    width:2rem;
+    background-color: rgba(0, 0, 0, 0.799);
+    transform: rotate(45deg);
+    position: relative;
+    top:-4rem;
+    left:0;
+}
+
+.strip2{
+    height:12rem;
+    width:2rem;
+    background-color: rgba(0, 0, 0, 0.799);
+    transform: rotate(135deg);
+    position: relative;
+    top:-15rem;
+    left:95%;
+}
+
+.line1 {
+    width: 500px; 
+    height: 100px;  
+    display: none;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(45deg);
+    top:30rem;
+    left:40%;
+    position: absolute;
+  }
