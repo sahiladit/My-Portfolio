@@ -245,7 +245,7 @@ marquee{
     border-radius:50%;
     background-color: orange;
     position: absolute;
-    top:2.4rem;
+    top:2.15rem;
     left:18.25%
 }
 .p1::selection{

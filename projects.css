@@ -77,4 +77,19 @@ h2{
     top:30rem;
     left:40%;
     position: absolute;
-  }
+}
+.card h3::selection{
+    background-color: orange;
+    color:white;
+}
+.card img:hover{
+    scale:1.1;
+}
+.card img:hover .main1{
+    filter: blur(5px);
+}
+
+.end{
+    margin-top: 40rem;
+    padding-bottom: 5rem;
+}
